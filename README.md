@@ -1,4 +1,4 @@
-# Love--ON
+# Love: ON
 
 ![alt text](https://github.com/ThaiHoangDang/Love--ON/blob/master/loveon.jpeg?raw=true)
 
