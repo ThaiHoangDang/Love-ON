@@ -189,11 +189,11 @@
                 }
 
                 alert (
-                    "touch - " + touch*100/x.length + "%\n" + 
-                    "gift - " + gift*100/x.length + "%\n" +
-                    "service - " + service*100/x.length + "%\n" +
-                    "time - " + time*100/x.length + "%\n" + 
-                    "word - " + word*100/x.length + "%"
+                    "touch - " + (Math.round(touch*100/x.length * 100) / 100).toFixed(2)  + "%\n" + 
+                    "gift - " + (Math.round(gift*100/x.length * 100) / 100).toFixed(2) + "%\n" +
+                    "service - " + (Math.round(service*100/x.length * 100) / 100).toFixed(2) + "%\n" +
+                    "time - " + (Math.round(time*100/x.length * 100) / 100).toFixed(2) + "%\n" + 
+                    "word - " + (Math.round(word*100/x.length * 100) / 100).toFixed(2) + "%"
                 )
             }
 
